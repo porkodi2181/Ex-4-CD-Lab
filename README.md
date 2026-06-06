@@ -16,7 +16,7 @@ To write a YACC program to recognize a valid variable which starts with a letter
 # .l file:
 ```
 %{
-#include "exp4_0177.tab.h"
+#include "exp4_502.tab.h"
 #include <string.h>
 %}
 
@@ -70,7 +70,8 @@ void yyerror(const char *msg) {
 
 # Output
 
-<img width="1348" height="720" alt="image" src="https://github.com/user-attachments/assets/1063b53a-3c24-4b48-9a06-6dcf8512c588" />
+<img width="1473" height="748" alt="Screenshot 2026-06-06 001815" src="https://github.com/user-attachments/assets/9e174d62-a340-446e-b66f-97c6f6ee9420" />
+
 
 # Result
 A YACC program to recognize a valid variable which starts with a letter followed by any number of letters or digits is executed successfully and the output is verified.
